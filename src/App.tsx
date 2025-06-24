@@ -27,8 +27,8 @@ function App() {
       scrollTrigger: {
         trigger: ".items",
         // markers: true,
-        start: "top 520px",
-        end: "bottom 600px",
+        start: "top 80%",
+        end: "bottom 70%",
         scrub: true
       }
     });
@@ -49,8 +49,8 @@ function App() {
           trigger: ".models-item",
           scrub: true,
           // markers: true,
-          start: "top 800px",
-          end: "bottom 810px"
+          start: "top 90%",
+          end: "bottom 70%"
         }
       })
         .fromTo("#model-1", { opacity: 0, y: 160 }, { opacity: 1, y: 0 })
