@@ -1,54 +1,32 @@
-# React + TypeScript + Vite
+# 📌 INTRODUÇÃO
+Esta projeto consiste em uma aplicação utilizando Vite, NodeJS, ReactJS, TypeScript, CSS, TailwindCSS e GSAP (para animações).
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A ideia central deste projeto é criar animações GSAP do tipo ScrollTrigger para que quando o usuário realizar a rolagem com o scroll do mouse, as imagens de cada Smart Watch terão certos tipos de animações de efeito.
 
-Currently, two official plugins are available:
+<br />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 🔨 Instalações
+Assim que clonar/baixar o projeto, deve ser necessário instalar todas as dependências.
 
-## Expanding the ESLint configuration
+```bash
+npm install
+```
+<br />
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Para rodar a aplicação:
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```bash
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+<br /> <br />
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+# 🔍 Tecnologias Utilizadas
+<img src="https://cdn.simpleicons.org/vite/646CFF" alt="Vite" width="40" height="40"/>
+<img src="https://cdn.simpleicons.org/node.js/339933" alt="Node.js" width="40" height="40"/>
+<img src="https://cdn.simpleicons.org/typescript/3178C6" alt="TypeScript" width="40" height="40"/>
+<img src="https://cdn.simpleicons.org/css" alt="CSS3" width="40" height="40"/>
+<img src="https://cdn.simpleicons.org/react/61DAFB" alt="React" width="40" height="40"/>
+<img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" alt="Tailwind CSS" width="40" height="40"/>
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+<br /> <br />
