@@ -77,7 +77,7 @@ function App() {
                 Adquira já o seu
               </h2>
               <p className="mt-4 ml-4 md:ml-10 text-zinc-900 text-base md:text-lg leading-relaxed px-4">
-                Tenha tecnologia, praticidade e estilo no seu pulso. Com um Smart Watch moderno, você monitora sua saúde em tempo real, acompanha seus treinos, controla músicas, visualiza mensagens e recebe notificações importantes sem precisar tirar o celular do bolso. Ideal para o dia a dia corrido, ele une funcionalidade e design em um único dispositivo inteligente.
+                Tenha tecnologia, praticidade e estilo no seu pulso. Com um Smartwatch moderno, você monitora sua saúde em tempo real, acompanha seus treinos, controla músicas, visualiza mensagens e recebe notificações importantes sem precisar tirar o celular do bolso. Ideal para o dia a dia corrido, ele une funcionalidade e design em um único dispositivo inteligente.
               </p>
             </div>
 

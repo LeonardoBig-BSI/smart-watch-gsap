@@ -7,7 +7,7 @@ const Header = () => {
         >
             <header>
                 <h1 className="text-2xl sm:text-3xl md:text-4xl text-white text-center mt-16 px-4">
-                    O melhor Smart Watch do mercado
+                    O melhor Smartwatch do mercado
                 </h1>
             </header>
         </div>
